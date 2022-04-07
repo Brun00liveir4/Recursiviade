@@ -1,0 +1,25 @@
+Pilha de Chamadas - Valores por loop da recursão:
+
+#include<stdio.h>
+
+int recursiva(int 4)
+{
+	if (x == 1)
+	{return -x;}
+	else
+	{
+	return  -5 * recursiva(4 - 1) + 4;
+				 -5 * recursiva(3 - 1) + 3
+					 -5 * recursiva(2 - 1) + 2
+					 -5 *  - 1 + 2 = 7
+				 -5 * 7 + 3 = -32
+			 -5 *  -32 + 4 = 164 		
+	}
+}
+
+int main ()
+{
+	printf("Resultado = %d", recursiva(4));
+}
+
+SAÍDA = 164

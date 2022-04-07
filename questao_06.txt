@@ -1,0 +1,25 @@
+Pilha de Chamadas - Valores por loop da recursão:
+
+#include<stdio.h>
+
+int rec(int 20)
+{
+	if (x == 5)
+	{return 1;}
+	else
+	{
+	return  rec(20 -51) + 4;
+				rec(15 - 5)+4
+					rec(10-5)+4
+					1+4 = 5
+				5+4 = 9
+			9+4 = 13		
+	}
+}
+
+int main ()
+{
+	printf("Resultado = %d", rec(20));
+}
+
+SAÍDA = 13
